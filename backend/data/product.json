@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Sandisk SD Card",
+    "price": "45.49",
+    "description": "Pull requests are always welcome! Please base pull requests against the master branch and follow the contributing guide.",
+    "ratings": "4.5",
+    "seller": "Ebay",
+    "category": "Headphones"
+  },
+  {
+    "name": "Sandisk SD 1",
+    "price": "5.49",
+    "description": "Pull requests are always welcome! Please base pull requests against the master branch and follow the contributing guide.",
+    "ratings": "4.5",
+    "seller": "Ebay",
+    "category": "Home"
+  },
+  {
+    "name": "Sandisk SD Card 2",
+    "price": "4.49",
+    "description": "Pull requests are always welcome! Please base pull requests against the master branch and follow the contributing guide.",
+    "ratings": "4.5",
+    "seller": "Ebay",
+    "category": "Kids"
+  },
+  {
+    "name": "Sandisk SD Card 3",
+    "price": ".49",
+    "description": "Pull requests are always welcome! Please base pull requests against the master branch and follow the contributing guide.",
+    "ratings": "4.5",
+    "seller": "Ebay",
+    "category": "Laptops"
+  },
+  {
+    "name": "Sandisk SD Card 4",
+    "price": "2.49",
+    "description": "Pull requests are always welcome! Please base pull requests against the master branch and follow the contributing guide.",
+    "ratings": "4.5",
+    "seller": "Ebay",
+    "category": "Women"
+  },
+  {
+    "name": "Sandisk SD Card 5",
+    "price": "35.49",
+    "description": "Pull requests are always welcome! Please base pull requests against the master branch and follow the contributing guide.",
+    "ratings": "4.5",
+    "seller": "Ebay",
+    "category": "Books"
+  },
+  {
+    "name": "Sandisk SD Card 6",
+    "price": "25.49",
+    "description": "Pull requests are always welcome! Please base pull requests against the master branch and follow the contributing guide.",
+    "ratings": "4.5",
+    "seller": "Ebay",
+    "category": "Food"
+  },
+  {
+    "name": "Sandisk SD Card 7",
+    "price": "8.49",
+    "description": "Pull requests are always welcome! Please base pull requests against the master branch and follow the contributing guide.",
+    "ratings": "4.5",
+    "seller": "Ebay",
+    "category": "Sports"
+  }
+]
