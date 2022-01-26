@@ -2,6 +2,8 @@
 
 const mongoose = require("mongoose");
 const validator = require("validator");
+const bcrypt = require("bcryptjs");
+const jwt = require("jsonwebtoken");
 
 const userSchema = new mongoose.Schema({
   name: {
@@ -33,7 +35,7 @@ const userSchema = new mongoose.Schema({
   },
   role: {
     type: String,
-    default: user,
+    default: "user",
   },
   createdAt: {
     type: Date,
@@ -41,6 +43,14 @@ const userSchema = new mongoose.Schema({
   },
   resetPasseordToken: String,
   resetPasswordExpire: Date,
+});
+// Encrypt the password before saving user
+
+userSchema.pre("save", async function (next) {
+  if (!this.isModified("password")) {
+    next();
+  }
+  this.password = await bcrypt.hash(this.password, 10);
 });
 
 module.exports = mongoose.model("User", userSchema);
