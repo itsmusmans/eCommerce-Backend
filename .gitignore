@@ -1,3 +1,6 @@
+# Ignoring the config.env file
+config.env
+
 # Logs
 logs
 *.log
